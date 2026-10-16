@@ -12,10 +12,10 @@ O projeto foi desenvolvido com foco no aprendizado de infraestrutura como códig
 
 O cluster é composto por quatro máquinas virtuais:
 
-- **master:** nó Manager do Docker Swarm.
-- **node01:** nó Worker.
-- **node02:** nó Worker.
-- **node03:** nó Worker.
+- **master:** nó Manager do Docker Swarm. 192.168.56.10
+- **node01:** nó Worker. 192.168.56.11
+- **node02:** nó Worker. 192.168.56.12
+- **node03:** nó Worker. 192.168.56.13
 
 O nó Manager gerencia o estado do cluster e distribui as tarefas entre os nós disponíveis. Os Workers recebem as instruções do Swarm e executam os serviços atribuídos.
 
